@@ -1,0 +1,52 @@
+body{
+   background-color: #eee;
+   margin: 15px 0;
+}
+#Card{
+   border:1px solid black;
+   width:50%;
+   margin: auto;
+   padding: 5px ;
+}
+#Card .headOne {
+   text-align: center;
+   
+}
+#Card .QNumber {
+   text-align: center;
+   
+}
+#Card .q1{
+   border: 1px solid black;
+   padding: 20px 3px;
+   
+}
+
+#Card #Answer{
+   border: 1px solid black;
+   padding: 20px 0;
+}
+#Answer button {
+   padding: 10px 25px;
+   cursor: pointer;
+}
+#Answer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.next input {
+   padding: 10px 20px;
+   cursor: pointer;
+}
+.next  {
+   padding: 10px 20px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
